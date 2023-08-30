@@ -2,6 +2,8 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { CounterFeature } from "./features/counter";
 
+console.log("Hello World!");
+
 function App() {
   return (
     <div className="App">
