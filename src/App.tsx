@@ -16,9 +16,24 @@ function App() {
     setTemplates(sandboxes.filter(item => (item.custom_template?.icon_url ?? "").startsWith("http")))
   }
 
+  fetchTemplates()
+
   return (
-    <div className="flex-1 space-y-4 p-4 pt-6">
-      <Card>
+    <div className="flex-1 space-y-4 p-4 pt-6 bg-amber-200 min-h-[100vh]">
+
+      <h1 className="font-thin leading-none text-[70px] pb-10">Discover CodeSandbox templates</h1>
+
+      {templates.map((item) => {
+        return (
+          <div key={item.title} className="border-b-2 border-gray-100">
+            <div><img className="w-[50px]" src={item.custom_template.icon_url} /></div>
+            <div className="font-medium">{item.title}</div>
+            <div>{item.description}</div>
+          </div>
+          );
+        })}
+
+      {/* <Card>
         <CardHeader>
           <CardTitle>
             CodeSandbox templates 
@@ -48,7 +63,7 @@ function App() {
             </Table>
           </div>
         </CardContent> 
-      </Card>
+      </Card> */}
     </div>
   );
 }
