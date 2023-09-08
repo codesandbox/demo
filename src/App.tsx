@@ -69,9 +69,9 @@ function App() {
             return (
               <div
                 key={item.title}
-                className="border-2 border-r-4 border-b-4 border-black p-3 flex gap-4 mb-2 bg-amber-200 relative hover:border-4 hover:border-b-2 hover:border-r-2 pointer"
+                className="border-2 flex border-r-4 border-b-4 border-black p-3 flex gap-4 mb-2 bg-amber-200 relative hover:border-4 hover:border-b-2 hover:border-r-2 pointer"
               >
-                <div>
+                <div className="min-w-[50px]">
                   <img
                     className="w-[50px]"
                     src={item.custom_template.icon_url}
@@ -80,9 +80,7 @@ function App() {
 
                 <div>
                   <div className="font-medium text-[20px]">{item.title}</div>
-                  <div className="opacity-60 text-[14px]">
-                    {item.description}
-                  </div>
+                  <p className="opacity-60 text-[14px]">{item.description}</p>
                 </div>
 
                 <svg
