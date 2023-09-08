@@ -30,14 +30,17 @@ function App() {
           Discover CodeSandbox templates
         </h1>
 
-        <button className="border-b-2 border-black" onClick={fetchTemplates}>
+        <button
+          className="border-b-2 border-black font-bold pointer hover:border-b-4"
+          onClick={fetchTemplates}
+        >
           Fetch templates
         </button>
       </div>
 
-      <div className="h-[200px]" />
+      <div className="h-[300px] pointer-events-none" />
 
-      <div className="pt-20 relative z-1">
+      <div className="relative z-1">
         {templates.map((item) => {
           return (
             <div
