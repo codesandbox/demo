@@ -2,7 +2,15 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [state, setState] = useState<
-    { state: "LOADING" } | { state: "READY"; data: any }
+    | { state: "LOADING" }
+    | {
+        state: "READY";
+        data: {
+          title: string;
+          description: string;
+          custom_template: { icon_url: string };
+        }[];
+      }
   >({ state: "LOADING" });
 
   const fetchTemplates = async () => {
