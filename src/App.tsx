@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [templates, setTemplates] = useState<any>([]);
@@ -19,6 +19,10 @@ function App() {
     );
   };
 
+  useEffect(() => {
+    fetchTemplates();
+  }, []);
+
   return (
     <div className="flex-1 space-y-4 p-4 pt-6 bg-amber-100 min-h-[100vh]">
       <div className="fixed">
@@ -31,7 +35,9 @@ function App() {
         </button>
       </div>
 
-      <div className="pt-20 pt-[300px] relative z-1">
+      <div className="h-[200px]" />
+
+      <div className="pt-20 relative z-1">
         {templates.map((item) => {
           return (
             <div
