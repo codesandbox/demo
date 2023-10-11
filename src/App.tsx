@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { getCodeSandboxHost } from "@codesandbox/utils/lib/index";
 
 function App() {
   const [state, setState] = useState<
@@ -16,20 +17,16 @@ function App() {
   const fetchTemplates = async () => {
     setState({ state: "LOADING" });
     const data = await fetch(
-      "https://codesandbox.io/api/v1/sandboxes/templates/official",
+      "https://" + getCodeSandboxHost(5000) + "/templates",
     );
     const json = await data.json();
     const sandboxes = json[0].sandboxes;
-
-    console.log(sandboxes);
 
     // delay it
     setTimeout(() => {
       setState({
         state: "READY",
-        data: sandboxes.filter((item) =>
-          (item.custom_template?.icon_url ?? "").startsWith("http"),
-        ),
+        data: sandboxes,
       });
     }, 1000);
   };

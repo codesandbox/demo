@@ -1,0 +1,1408 @@
+[
+  {
+    "title": "Official Templates",
+    "sandboxes": [
+      {
+        "alias": "react-vite-ts-9qputt",
+        "id": "9qputt",
+        "description": "React running from the Vite dev server!",
+        "title": "React (Vite + TS)",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-10-12T10:35:05",
+        "updated_at": "2023-10-06T08:59:29",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "react-vite-ts",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "6334cbfa1a7cad43a83637cbc6204bc0f25f9de8"
+        },
+        "custom_template": {
+          "id": "a769dc1a-9e04-4972-a88f-5c5266d600d5",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/react-vite-ts/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "node-js-k8dsq1",
+        "id": "k8dsq1",
+        "description": "The official Node.js template by the CodeSandbox team",
+        "title": "Node.js",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-09-21T19:46:17",
+        "updated_at": "2023-10-05T17:51:32",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "node",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "3853b4d476cdc5ef67853ea88d9c61e02ec59198"
+        },
+        "custom_template": {
+          "id": "330ea255-0bdd-4df9-aece-29b523ebdfe1",
+          "color": "#3AA855",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/node/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "node-http-server-node",
+        "id": "node",
+        "description": "Node.js example server starter project",
+        "title": "Node HTTP Server",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2018-09-27T18:04:28",
+        "updated_at": "2023-09-04T14:27:34",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "node-http-server",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "7745c428c2f6f4ef371beabc13f9d4d066136aab"
+        },
+        "custom_template": {
+          "id": "f2fe1c94-6232-42cd-a0b8-b0b59affff06",
+          "color": "#66cc33",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/node-http-server/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "static-rjk9n4zj7m",
+        "id": "rjk9n4zj7m",
+        "description": "This is a static template with no bundling",
+        "title": "static",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-10-31T15:16:47",
+        "updated_at": "2020-05-20T15:22:27",
+        "collection": null,
+        "environment": "static",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "static-template",
+          "username": "codesandbox-app",
+          "commit_sha": "312eabdfd38e00b86d7f127f5c7d82e2cde34945"
+        },
+        "custom_template": {
+          "id": "2bbad915-3fc4-46f9-b850-c1f0a7717903",
+          "color": "#3AA855",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "react-new",
+        "id": "new",
+        "description": "React example starter project",
+        "title": "React",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2017-04-01T14:30:32",
+        "updated_at": "2023-09-14T17:17:20",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "create-react-app",
+        "git": null,
+        "custom_template": {
+          "id": "40a43fae-72d3-4d3b-8b53-6c795fdd1be3",
+          "color": "#61DAFB",
+          "icon_url": "ReactIcon"
+        }
+      },
+      {
+        "alias": "vanilla-vanilla",
+        "id": "vanilla",
+        "description": "JavaScript example starter project",
+        "title": "Vanilla",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2018-02-28T16:00:16",
+        "updated_at": "2023-08-10T08:44:37",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "parcel",
+        "git": null,
+        "custom_template": {
+          "id": "e7f29750-e9d2-4eab-94a3-25cd50e21c9e",
+          "color": "#dfb07a",
+          "icon_url": "JavaScriptIcon"
+        }
+      },
+      {
+        "alias": "docker-hsd8ke",
+        "id": "hsd8ke",
+        "description": "The easiest way to get started from Docker in CodeSandbox",
+        "title": "Docker",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-06T15:13:39",
+        "updated_at": "2023-08-28T09:31:23",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "docker",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "697e61e8e48a9860d7c1766d1529143ef4df05c9"
+        },
+        "custom_template": {
+          "id": "b6998895-292f-429e-9456-ccd0f9f7b8fa",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/docker/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "vite-typescript-7rp8q9",
+        "id": "7rp8q9",
+        "description": "Starter template for Vite + TypeScript",
+        "title": "Vite + TypeScript",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-09-04T14:25:17",
+        "updated_at": "2023-10-06T08:44:18",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "vite-ts",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "ff008d464af560c95fa26443e5bea4664ba243d2"
+        },
+        "custom_template": {
+          "id": "fbd009d0-a60a-488f-9117-acf41e6cb904",
+          "color": "#61DAFB",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/vite-ts/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "vue-vite-pb6sit",
+        "id": "pb6sit",
+        "description": "Vue 3 set up using Vite",
+        "title": "Vue (Vite)",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-02-12T13:36:43",
+        "updated_at": "2023-10-06T08:42:49",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "vue-vite",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "fde4ff0503916d5583989d3102550a6d62e51c65"
+        },
+        "custom_template": {
+          "id": "95886722-6f30-456c-975e-f166317625c7",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/vue-vite/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "next-js-fxis37",
+        "id": "fxis37",
+        "description": "The official Next.js template by the CodeSandbox team",
+        "title": "Next.js",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-09-21T19:49:57",
+        "updated_at": "2023-10-06T08:56:33",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "nextjs",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "a318d011e227f688fd3429e8391b710ef10e3436"
+        },
+        "custom_template": {
+          "id": "a6272fe9-86cf-4115-80d1-66760e7befb2",
+          "color": "#ffffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/nextjs/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "nodebox-starter-hgpbfd",
+        "id": "hgpbfd",
+        "description": "This is a template that shows you how Nodebox works with a sample Node code.",
+        "title": "Nodebox Starter",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-03-16T12:15:46",
+        "updated_at": "2023-10-06T08:42:49",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "nodebox-starter",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "b6065e7f11fc7e67c51b77cf79f232dc3b38ad8c"
+        },
+        "custom_template": {
+          "id": "e645517a-7249-4512-a112-78eb4d212af9",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/nodebox-starter/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "deno-kc6kgh",
+        "id": "kc6kgh",
+        "description": "Deno starter that uses CodeSandbox native Docker support",
+        "title": "Deno",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-10T17:06:47",
+        "updated_at": "2023-09-26T13:28:00",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "deno",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "b7df39c25189431ad39057b9118fe73ccceeafd8"
+        },
+        "custom_template": {
+          "id": "2dadf6a9-cab6-4121-92dc-23c65e164772",
+          "color": "#61DAFB",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/deno/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "bun-0uzq6f",
+        "id": "0uzq6f",
+        "description": "Quickly get started with Bun using this starter!",
+        "title": "Bun",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-12-07T18:44:11",
+        "updated_at": "2023-09-11T10:17:27",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "bun",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "7b5fed809f2cca3072914cad6b08315cdb895725"
+        },
+        "custom_template": {
+          "id": "92c8ee04-256e-4f7d-9722-e25fd06287cb",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/bun/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "go-ej14tt",
+        "id": "ej14tt",
+        "description": "Get started with Go in CodeSandbox!",
+        "title": "Go",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-24T15:13:56",
+        "updated_at": "2023-10-06T08:40:08",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "go",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "4e33f93587ccd90a28bd209c4e544d98de661ef5"
+        },
+        "custom_template": {
+          "id": "5a76b1e5-8fef-49cb-978c-26f540e5a7f2",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/go/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "flask-server-0d0xz9",
+        "id": "0d0xz9",
+        "description": "This is an example of a Flask server running \"hello world\"",
+        "title": "Flask Server",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": true,
+        "inserted_at": "2023-05-17T09:06:44",
+        "updated_at": "2023-05-17T09:11:49",
+        "collection": null,
+        "environment": "static",
+        "git": null,
+        "custom_template": {
+          "id": "a3bce716-444a-4b5a-92d2-9ae8fca99c84",
+          "color": "#fffff",
+          "icon_url": "https://uploads.codesandbox.io/uploads/user/7b096902-4727-4686-b0a3-b3f34f13fc41/Og_e-python.png"
+        }
+      },
+      {
+        "alias": "rust-rk69p3",
+        "id": "rk69p3",
+        "description": "This is the perfect place to get started with Rust!",
+        "title": "Rust",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-13T13:09:30",
+        "updated_at": "2023-10-06T08:43:49",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "rust",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "7530be97eb30dd08d317ec20fb103cb0392caf5b"
+        },
+        "custom_template": {
+          "id": "f5d3960a-41c1-4b98-a99b-c373fdf7ed9a",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/rust/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "python-in2qez",
+        "id": "in2qez",
+        "description": "Example of using Python inside CodeSandbox",
+        "title": "Python",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-12-13T14:37:44",
+        "updated_at": "2023-10-06T08:41:41",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "python",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "ec5ff82b62458f2370d8ba3ad0795373b713fc24"
+        },
+        "custom_template": {
+          "id": "ee788ef1-514a-48af-bc60-a63c175fc9e0",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/python/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "create-t3-app-6k4sdn",
+        "id": "6k4sdn",
+        "description": "This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.",
+        "title": "Create-T3-app",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-24T00:59:19",
+        "updated_at": "2023-08-28T10:00:26",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "create-t3-app",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "e8a7e05f030c5a8fbd6bf172dd978fcc4189c7cb"
+        },
+        "custom_template": {
+          "id": "08acab5f-2ff7-4399-8de2-96b9084b3fb0",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/create-t3-app/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "docusaurus-mgf93g",
+        "id": "mgf93g",
+        "description": "Docusaurus example project",
+        "title": "Docusaurus",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-23T15:13:01",
+        "updated_at": "2023-08-28T09:39:58",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "docusaurus",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "308cc3b22cfeba3a551ed866e250d9842637fc38"
+        },
+        "custom_template": {
+          "id": "0c13936d-7e6e-4dad-978f-2075f3975df3",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/docusaurus/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "angular-angular",
+        "id": "angular",
+        "description": "The quickest way to get started with Angular!",
+        "title": "Angular",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2018-02-07T12:45:54",
+        "updated_at": "2023-08-28T15:52:41",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "angular",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "0677eed6061c31851baaed92ccb738a860c13101"
+        },
+        "custom_template": {
+          "id": "bd19f52f-578b-46b1-a30f-d332de518607",
+          "color": "#DD0031",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/angular/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "cloudflare-workers-simple-p456qy",
+        "id": "p456qy",
+        "description": "A Cloudflare worker template that outputs a simple \"Hello World\"",
+        "title": "Cloudflare Workers (Simple)",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-06-27T12:16:09",
+        "updated_at": "2023-10-06T08:59:15",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "cloudflare-worker",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "2dcecb27aa03b022849c3fa024375c4e62db8abf"
+        },
+        "custom_template": {
+          "id": "b1b627a9-1ccd-46d5-ab23-e2b7bedbab51",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/cloudflare-worker/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "astro-j1qiqf",
+        "id": "j1qiqf",
+        "description": "The official Astro template",
+        "title": "Astro",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-10-03T18:43:38",
+        "updated_at": "2023-10-06T08:56:51",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "astro",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "50e45cdca7c39db2fac5e29f97f8ca3c0859a07e"
+        },
+        "custom_template": {
+          "id": "9c89d0a8-629c-4a24-bdc0-6da9612d7e1a",
+          "color": "#66cc33",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/astro/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "astro-tailwind-starter-l31cli",
+        "id": "l31cli",
+        "description": "Astro together with Tailwind on CodeSandbox",
+        "title": "Astro Tailwind Starter",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-26T01:08:51",
+        "updated_at": "2023-10-06T08:56:51",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "astro-tailwind",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "4a81a059a7af35a29e7c0512bf4f9226fe2383a0"
+        },
+        "custom_template": {
+          "id": "de3b978f-64c8-42a0-ac3d-17f8947a2225",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/astro-tailwind/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "nuxt-b0tq18",
+        "id": "b0tq18",
+        "description": "A starter that allows you to quickly get started using Nuxt v3.",
+        "title": "Nuxt",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-02-20T13:14:54",
+        "updated_at": "2023-10-06T08:43:32",
+        "collection": null,
+        "environment": "nuxt",
+        "git": {
+          "path": "nuxt",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "bd89f2941668d7fe15220ae71f2f8be8add5719f"
+        },
+        "custom_template": {
+          "id": "e3a50863-04bd-4a49-a2ea-e2fc4f35c4fe",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/nuxt/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "solid-vite-d2kl21",
+        "id": "d2kl21",
+        "description": "This is a starter template to get started with Solid",
+        "title": "Solid (Vite)",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-13T12:15:45",
+        "updated_at": "2023-10-06T08:43:32",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "solid-vite",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "788a293ea176c395d15b55128537530efeb2250e"
+        },
+        "custom_template": {
+          "id": "f7e43f14-30f8-425f-8cf7-3d273f8a973d",
+          "color": "#61DAFB",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/solid-vite/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "qwik-vite-lorqfw",
+        "id": "lorqfw",
+        "description": "This is a Basic App (QwikCity) starter project",
+        "title": "Qwik (Vite)",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-15T22:24:00",
+        "updated_at": "2023-10-06T08:43:32",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "qwik-vite",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "30eac69dac2eabc89796566130025b803c28c352"
+        },
+        "custom_template": {
+          "id": "6a4c8e36-8fef-4325-8004-14ebf574ce90",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/qwik-vite/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "deno-fresh-o1i9fy",
+        "id": "o1i9fy",
+        "description": "Deno template with Fresh",
+        "title": "Deno Fresh",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-11T12:34:55",
+        "updated_at": "2023-09-26T13:27:47",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "deno-fresh",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "5c0fc7c73cf5a5436fa78de9e86e33d1e4b28f6f"
+        },
+        "custom_template": {
+          "id": "a1fd4796-e7cc-4ee6-a092-3bcd66c5890f",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/deno-fresh/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "preact-preact",
+        "id": "preact",
+        "description": "Preact example starter project",
+        "title": "Preact",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2017-08-23T13:49:06",
+        "updated_at": "2022-12-08T09:58:15",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "preact-cli",
+        "git": null,
+        "custom_template": {
+          "id": "76bc055c-320e-4896-a1db-d09a96aaf13c",
+          "color": "#AD78DC",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "react-typescript-react-ts",
+        "id": "react-ts",
+        "description": "React and TypeScript example starter project",
+        "title": "React TypeScript",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2018-12-18T10:31:20",
+        "updated_at": "2023-09-12T14:46:16",
+        "collection": null,
+        "environment": "create-react-app",
+        "git": null,
+        "custom_template": {
+          "id": "a49eb2ed-5233-4480-a2ca-794626c4e1e3",
+          "color": "#61DAFB",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "vanilla-typescript-vanilla-ts",
+        "id": "vanilla-ts",
+        "description": "JavaScript and TypeScript example starter project",
+        "title": "Vanilla Typescript",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2018-11-03T13:47:47",
+        "updated_at": "2022-12-01T10:11:29",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "parcel",
+        "git": null,
+        "custom_template": {
+          "id": "0234566e-e325-4979-9dbb-67e74d044451",
+          "color": "#dfb07a",
+          "icon_url": "TypeScriptIcon"
+        }
+      },
+      {
+        "alias": "rust-serde-7e2oud",
+        "id": "7e2oud",
+        "description": "Shows how Rust and Serde are used together to serialize.",
+        "title": "Rust & Serde",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-19T16:40:23",
+        "updated_at": "2023-09-26T13:29:35",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "rust-serde",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "2bd59aca90c764d0e83b7b67f3005d3469d597e0"
+        },
+        "custom_template": {
+          "id": "cb410532-f81f-4c6f-a1fc-fd5d78700364",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/rust-serde/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "rust-poem-rest-server-qghttk",
+        "id": "qghttk",
+        "description": "A REST server using Rust and Poem",
+        "title": "Rust & Poem REST Server",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-01-19T19:19:22",
+        "updated_at": "2023-09-04T14:23:56",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "rust-poem-server",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "3c4637e096ba6a6788db7395c0fb6705d8488034"
+        },
+        "custom_template": {
+          "id": "e63f2605-2e88-426f-a19a-21544050186e",
+          "color": "#fffff",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/rust-poem-server/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "svelte-svelte",
+        "id": "svelte",
+        "description": "Svelte example starter project",
+        "title": "Svelte",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2017-09-12T21:29:20",
+        "updated_at": "2021-04-20T13:10:46",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "svelte",
+        "git": null,
+        "custom_template": {
+          "id": "75340154-ea3a-48a3-9ebb-f5a39b96bee5",
+          "color": "#FF3E00",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "gatsby-starter-default-m4q82k8ry9",
+        "id": "m4q82k8ry9",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "title": "gatsby-starter-default",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2018-09-27T17:32:08",
+        "updated_at": "2023-09-07T16:33:36",
+        "collection": null,
+        "environment": "gatsby",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "gatsby-starter-default",
+          "username": "gatsbyjs",
+          "commit_sha": "9233b2581d3925cb2c6a911f3d4dae004c65c1a3"
+        },
+        "custom_template": {
+          "id": "100e9c38-34e1-49eb-bddb-d61e81ef3a1f",
+          "color": "#8C65B3",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "gsap-bonus-plugins-starter-m26x0",
+        "id": "m26x0",
+        "description": "Starter template for GSAP with bonus plugins.",
+        "title": "GSAP + Bonus Plugins Starter",
+        "author": {
+          "username": "GreenSock"
+        },
+        "v2": false,
+        "inserted_at": "2021-10-12T18:40:28",
+        "updated_at": "2022-04-04T09:48:36",
+        "collection": null,
+        "environment": "parcel",
+        "git": null,
+        "custom_template": {
+          "id": "8e0fb464-f59e-4c3e-974e-14847b192a47",
+          "color": "#dfb07a",
+          "icon_url": "GSAPIcon"
+        }
+      },
+      {
+        "alias": "blitz-js-0e9gg",
+        "id": "0e9gg",
+        "description": null,
+        "title": "blitz-js",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2020-10-18T15:43:54",
+        "updated_at": "2020-10-21T14:28:34",
+        "collection": null,
+        "environment": "next",
+        "git": null,
+        "custom_template": {
+          "id": "9a6cec31-f444-4b43-af72-dcf6aaaf66c7",
+          "color": "#61DAFB",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "examples-classic-b9y9z",
+        "id": "docusaurus",
+        "description": "Docusaurus example project",
+        "title": "docusaurus",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2020-11-16T15:21:36",
+        "updated_at": "2023-09-20T16:09:15",
+        "collection": null,
+        "environment": "docusaurus",
+        "git": {
+          "path": "examples/classic",
+          "branch": "main",
+          "repo": "docusaurus",
+          "username": "facebook",
+          "commit_sha": "6b8c5dfd112e970b0249cd01983fe3419516fef5"
+        },
+        "custom_template": {
+          "id": "e2ec38b8-1764-4d96-9543-73e00065c38a",
+          "color": "#61DAFB",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "cxjs-zrlzx9rjpx",
+        "id": "zrlzx9rjpx",
+        "description": "CxJS Template for CodeSandbox",
+        "title": "CxJS",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-04-09T02:37:51",
+        "updated_at": "2020-01-30T06:35:32",
+        "collection": null,
+        "environment": "cxjs",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "cxjs-codesandbox-template",
+          "username": "codaxy",
+          "commit_sha": "7f063c2e2e95dd5385ccb3f451e3050da9816056"
+        },
+        "custom_template": {
+          "id": "58ad3d5a-766e-49aa-9206-08b51fe5ec66",
+          "color": "#11689f",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "dojo-codesandbox-template-0pjzx727zn",
+        "id": "0pjzx727zn",
+        "description": null,
+        "title": "dojo-codesandbox-template",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-03-27T01:33:07",
+        "updated_at": "2021-07-30T17:53:06",
+        "collection": null,
+        "environment": "@dojo/cli-create-app",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "dojo-codesandbox-template",
+          "username": "dojo",
+          "commit_sha": "d34d8cb0b967908482cffc6ebc7ab98d61d0d92b"
+        },
+        "custom_template": {
+          "id": "bbcc4cf4-226a-4a8b-a0e2-48977dceccc8",
+          "color": "#D3471C",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "reason-reason",
+        "id": "reason",
+        "description": "Reason example starter React project",
+        "title": "Reason",
+        "author": {
+          "username": "CompuIves"
+        },
+        "v2": false,
+        "inserted_at": "2018-09-27T17:47:26",
+        "updated_at": "2020-01-30T12:05:35",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "reason",
+        "git": null,
+        "custom_template": {
+          "id": "898f06ae-9bd3-4aab-bb00-46161ff5dcc3",
+          "color": "#CB5747",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "adonis-rwomlrm7mo",
+        "id": "rwomlrm7mo",
+        "description": "The fullstack codesandbox application for Adonisjs",
+        "title": "Adonis",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2019-04-10T07:36:51",
+        "updated_at": "2020-01-29T17:30:38",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "adonis-starter-codesandbox",
+          "username": "adonisjs",
+          "commit_sha": "9a2734fd181f54fa3c01c07f80ce79e61705aa64"
+        },
+        "custom_template": {
+          "id": "692723f8-d5f8-46e2-ae1f-9f8082ee41ef",
+          "color": "#66cc33",
+          "icon_url": "AdonisIcon"
+        }
+      },
+      {
+        "alias": "apollo-server",
+        "id": "apollo-server",
+        "description": null,
+        "title": "Apollo Server",
+        "author": {
+          "username": "peggyrayzis"
+        },
+        "v2": false,
+        "inserted_at": "2018-09-27T18:11:47",
+        "updated_at": "2023-03-14T17:09:08",
+        "collection": {
+          "team": {
+            "id": "da061785-7b1e-469e-9073-df68759ffb28",
+            "name": "Apollo"
+          }
+        },
+        "environment": "apollo",
+        "git": null,
+        "custom_template": {
+          "id": "b59d95e6-265f-44bf-929a-347c83f5c9c5",
+          "color": "#61DAFB",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "mike-northember-new-output-30z1z4j59m",
+        "id": "30z1z4j59m",
+        "description": "Small description for my-app goes here",
+        "title": "Ember",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-09-27T21:13:40",
+        "updated_at": "2020-06-22T01:25:57",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "ember-new-output",
+          "username": "mike-north",
+          "commit_sha": "4c768c1c9274d1085bbf8cd549b974ff1535adf4"
+        },
+        "custom_template": {
+          "id": "4633f62c-04eb-4375-a1b9-e8f2acff5561",
+          "color": "#66cc33",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "saravieiragridsome-starter-codesandbox-5yqj2z463k",
+        "id": "5yqj2z463k",
+        "description": null,
+        "title": "SaraVieira/gridsome-starter-codesandbox",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2019-04-01T10:58:43",
+        "updated_at": "2021-03-09T13:35:10",
+        "collection": null,
+        "environment": "gridsome",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "gridsome-starter-codesandbox",
+          "username": "SaraVieira",
+          "commit_sha": "e74540538b1ca4222ac5eb374603aba070d4ca47"
+        },
+        "custom_template": {
+          "id": "db4ff1a8-79c5-46de-925d-d79c4f99adf8",
+          "color": "#00a672",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "mdx-deck-basic-template-9jy4wl204p",
+        "id": "9jy4wl204p",
+        "description": "Deck created with mdx-deck",
+        "title": "@mdx-deck/basic-template",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-09-30T12:26:51",
+        "updated_at": "2023-03-10T17:07:06",
+        "collection": null,
+        "environment": "mdx-deck",
+        "git": {
+          "path": "templates/basic",
+          "branch": "master",
+          "repo": "mdx-deck",
+          "username": "jxnblk",
+          "commit_sha": "ce473528cce50a518d25c0956e141352162b9b73"
+        },
+        "custom_template": {
+          "id": "4925b084-cfbd-461e-a25d-21d56927cb5f",
+          "color": "#61DAFB",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "markojs-mj0w3xqxk8",
+        "id": "mj0w3xqxk8",
+        "description": "Sample (server-side) MarkoJS app (for codesandbox.io)",
+        "title": "MarkoJS",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2019-01-31T06:38:02",
+        "updated_at": "2020-01-30T02:10:37",
+        "collection": null,
+        "environment": "marko",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "marko-codesandbox",
+          "username": "nm123github",
+          "commit_sha": "9ebd13f604c1e82f80d0f5e4a488121780ebe0a8"
+        },
+        "custom_template": {
+          "id": "39b58fdb-f9a9-41d6-9648-23d4b86772ff",
+          "color": "#f5ac00",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "nest-typescript-starter-oly5151mxy",
+        "id": "oly5151mxy",
+        "description": "Nest TypeScript starter repository",
+        "title": "nest-typescript-starter",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2018-09-27T22:12:35",
+        "updated_at": "2023-09-26T17:07:51",
+        "collection": null,
+        "environment": "nest",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "typescript-starter",
+          "username": "nestjs",
+          "commit_sha": "3bc3c730226e694ca26ad855e20c8ccea7f436f5"
+        },
+        "custom_template": {
+          "id": "dc8eb544-748e-4b57-9746-cebf2c346efe",
+          "color": "#ed2945",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "quasarframework-quasar-codesandbox-x35jm",
+        "id": "x35jm",
+        "description": "A Quasar Framework app",
+        "title": "quasarframework/quasar-codesandbox",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2019-05-22T09:40:17",
+        "updated_at": "2022-02-05T10:18:46",
+        "collection": null,
+        "environment": "quasar",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "quasar-codesandbox",
+          "username": "quasarframework",
+          "commit_sha": "ed9f2ed4ec6ec975db7dcc43b8c380e2536f5101"
+        },
+        "custom_template": {
+          "id": "2c63a860-f22d-4aaa-a0f9-4e425059f576",
+          "color": "#66cc33",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "codesandbox-appsapper-template-88wlq002r8",
+        "id": "88wlq002r8",
+        "description": "TODO",
+        "title": "codesandbox-app/sapper-template",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-10-31T15:17:23",
+        "updated_at": "2020-06-01T02:02:58",
+        "collection": null,
+        "environment": "static",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "sapper-template",
+          "username": "codesandbox-app",
+          "commit_sha": "af85ee364f845db8738a67562a5fe3c8243523e3"
+        },
+        "custom_template": {
+          "id": "1b710a76-ad49-4eaa-9827-86d93b8a52ad",
+          "color": "#159497",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "styleguidistexample-myz918wlp8",
+        "id": "myz918wlp8",
+        "description": "React styleguidist example",
+        "title": "styleguidist/example",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2018-11-02T14:23:35",
+        "updated_at": "2020-09-03T21:54:10",
+        "collection": null,
+        "environment": "styleguidist",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "example",
+          "username": "styleguidist",
+          "commit_sha": "d4b422b9ce52a9001fc820b540df9fc68b99578a"
+        },
+        "custom_template": {
+          "id": "6b754181-0fc1-420d-8dbb-86375b19daf0",
+          "color": "#25d8fc",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "universal-oyvt3",
+        "id": "oyvt3",
+        "description": "Default starter theme for Unibit",
+        "title": "universal",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2019-07-09T13:42:48",
+        "updated_at": "2020-05-21T19:16:16",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "stackbit-theme-universal",
+          "username": "stackbithq",
+          "commit_sha": "b5dd1058fb9b0ef37d2fb0f4199bc4c23e287bf4"
+        },
+        "custom_template": {
+          "id": "f70d7737-588b-4084-bfbb-dc5e496229ee",
+          "color": "#66cc33",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "vuepress-w6nz0vxw8",
+        "id": "w6nz0vxw8",
+        "description": "VuePress starter template for CodeSandbox",
+        "title": "VuePress",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2019-03-25T14:37:29",
+        "updated_at": "2020-01-29T16:29:28",
+        "collection": null,
+        "environment": "vuepress",
+        "git": null,
+        "custom_template": {
+          "id": "31adee2b-0485-4a16-afde-c403e0e7421d",
+          "color": "#4abf8a",
+          "icon_url": null
+        }
+      },
+      {
+        "alias": "fastify-starter-7g29v",
+        "id": "7g29v",
+        "description": "Get started using Fastify with this basic template.",
+        "title": "fastify-starter",
+        "author": null,
+        "v2": false,
+        "inserted_at": "2020-01-05T19:26:28",
+        "updated_at": "2021-05-22T16:32:28",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "",
+          "branch": "master",
+          "repo": "fastify-starter-codesandbox",
+          "username": "fastify",
+          "commit_sha": "4e3328da72a7199a6e73faa4620788d97c4f4e14"
+        },
+        "custom_template": {
+          "id": "4271c2a0-2bc8-4fd4-9128-ce6208e8d85e",
+          "color": "#61DAFB",
+          "icon_url": "github"
+        }
+      },
+      {
+        "alias": "p5js-9tgmp",
+        "id": "9tgmp",
+        "description": "p5.js is a JavaScript library for creative coding.",
+        "title": "p5.js ",
+        "author": {
+          "username": "DannyRuchtie"
+        },
+        "v2": false,
+        "inserted_at": "2020-06-01T12:28:10",
+        "updated_at": "2022-04-25T13:55:57",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "static",
+        "git": null,
+        "custom_template": {
+          "id": "2e121e24-f2fe-4839-a8a7-20f4e38ea9e1",
+          "color": "#3AA855",
+          "icon_url": "P5Icon"
+        }
+      },
+      {
+        "alias": "p5js-react-6c00n",
+        "id": "6c00n",
+        "description": "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js",
+        "title": "p5.js React",
+        "author": {
+          "username": "DannyRuchtie"
+        },
+        "v2": false,
+        "inserted_at": "2020-06-01T12:47:48",
+        "updated_at": "2021-03-05T15:25:39",
+        "collection": {
+          "team": {
+            "id": "642af90c-4717-4730-bad3-e4c1e37ca5e2",
+            "name": "CodeSandbox"
+          }
+        },
+        "environment": "create-react-app",
+        "git": null,
+        "custom_template": {
+          "id": "df06c851-8335-4fb5-a4a4-09721c674bdb",
+          "color": "#61DAFB",
+          "icon_url": "P5Icon"
+        }
+      },
+      {
+        "alias": "remix-prp60l",
+        "id": "prp60l",
+        "description": "The official Remix Cloud Sandbox Template by the CodeSandbox team",
+        "title": "Remix",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-09-21T19:47:44",
+        "updated_at": "2023-10-06T08:57:19",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "remix",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "0ac454dbe35867e397ba1f4c7edc2df624b44b2b"
+        },
+        "custom_template": {
+          "id": "711f3239-4030-4e71-ac81-eee71860d2d9",
+          "color": "#66cc33",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/remix/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "sveltekit-q6j99z",
+        "id": "q6j99z",
+        "description": "The official Svelte Cloud Sandbox Template by the CodeSandbox team",
+        "title": "SvelteKit",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-10-03T18:51:54",
+        "updated_at": "2023-10-06T08:41:16",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "sveltekit",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "afa4a4ecf254b8cd0f70e1271b33af767cafcb8d"
+        },
+        "custom_template": {
+          "id": "388fc917-bbe1-4493-84af-fb415a3c809c",
+          "color": "#FF3E00",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/sveltekit/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "gatsby-4drgwm",
+        "id": "4drgwm",
+        "description": "The official Gatsby Cloud Sandbox Template by the CodeSandbox team",
+        "title": "Gatsby",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2022-10-03T18:56:16",
+        "updated_at": "2023-10-06T08:43:59",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "gatsby",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "9ea2fe8988cc28661cf988eda9ab590cace87363"
+        },
+        "custom_template": {
+          "id": "1e633d23-3022-40e4-b983-88eff84a89be",
+          "color": "#61DAFB",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/gatsby/.codesandbox/icon.png?raw=true"
+        }
+      },
+      {
+        "alias": "react-native-with-expo-x8qjqr",
+        "id": "x8qjqr",
+        "description": "Quickly get started with React Native using Expo in this starter!",
+        "title": "React Native with Expo",
+        "author": null,
+        "v2": true,
+        "inserted_at": "2023-08-21T14:27:44",
+        "updated_at": "2023-10-06T08:42:49",
+        "collection": null,
+        "environment": "node",
+        "git": {
+          "path": "react-native-expo",
+          "branch": "main",
+          "repo": "sandbox-templates",
+          "username": "codesandbox",
+          "commit_sha": "25f94d9df2bec84677e15653589fbaa766ff6832"
+        },
+        "custom_template": {
+          "id": "a9951988-85ff-4127-9413-d2f8b7f8a286",
+          "color": "#61DAFB",
+          "icon_url": "https://github.com/codesandbox/sandbox-templates/blob/main/react-native-expo/.codesandbox/icon.png?raw=true"
+        }
+      }
+    ]
+  }
+]
