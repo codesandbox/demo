@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="flex-1 space-y-4 p-4 pt-6 bg-amber-100 min-h-[100vh]">
       <div className="fixed">
-        <h1 className="font-thin leading-none text-[70px] tracking-wider mb-4">
+        <h1 className="font-thin leading-none text-[40px] tracking-wider mb-4">
           Discover
           <br /> CodeSandbox
           <br /> templates
@@ -52,7 +52,7 @@ function App() {
         </button>
       </div>
 
-      <div className="h-[300px] pointer-events-none" />
+      <div className="h-[110px] pointer-events-none" />
 
       <div className="relative z-1 ml-[180px]">
         {state.state === "LOADING" && (
