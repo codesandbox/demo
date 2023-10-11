@@ -19,7 +19,7 @@ function App() {
 
     const csbHost = getCodeSandboxHost(5000);
     const data = await fetch(
-      (csbHost ? `https://${csbHost}` : 'http://127.0.0.1:5000') + "/templates",
+      (csbHost ? `https://${csbHost}` : "http://127.0.0.1:5000") + "/templates",
     );
     const json = await data.json();
     const sandboxes = json[0].sandboxes;
@@ -68,7 +68,7 @@ function App() {
             return (
               <div
                 key={item.title}
-                className="border-2 flex border-r-4 border-b-4 border-black p-3 flex gap-4 mb-2 bg-amber-200 relative hover:border-4 hover:border-b-2 hover:border-r-2 pointer"
+                className="border-2 border-r-4 border-b-4 border-black p-3 flex gap-4 mb-2 bg-amber-400 relative hover:border-4 hover:border-b-2 hover:border-r-2 pointer"
               >
                 <div className="min-w-[50px]">
                   <img
