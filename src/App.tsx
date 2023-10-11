@@ -16,8 +16,10 @@ function App() {
 
   const fetchTemplates = async () => {
     setState({ state: "LOADING" });
+
+    const csbHost = getCodeSandboxHost(5000);
     const data = await fetch(
-      "https://" + getCodeSandboxHost(5000) + "/templates",
+      (csbHost ? `https://${csbHost}` : 'http://127.0.0.1:5000') + "/templates",
     );
     const json = await data.json();
     const sandboxes = json[0].sandboxes;
