@@ -41,7 +41,15 @@ function App() {
     <div className="flex-1 space-y-4 p-4 pt-6 bg-amber-100 min-h-[100vh]">
       <div className="fixed">
         <h1 className="font-thin leading-none text-[40px] tracking-wider mb-4">
-          Discover <b>EPIC</b> CodeSandbox templates
+          Discover{" "}
+          <b
+            style={{
+              color: "red",
+            }}
+          >
+            EPIC
+          </b>{" "}
+          CodeSandbox templates
         </h1>
 
         <button
