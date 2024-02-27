@@ -12,6 +12,10 @@ function App() {
           custom_template: { icon_url: string };
         }[];
       }
+    | {
+        state: "ERROR";
+        error: string;
+      }
   >({ state: "LOADING" });
 
   const fetchTemplates = async () => {
@@ -46,12 +50,14 @@ function App() {
           <br /> templates
         </h1>
 
-        <button
-          className="border-b-2 border-black font-bold pointer hover:border-b-4"
-          onClick={fetchTemplates}
-        >
-          Fetch templates
-        </button>
+        {state.state === "ERROR" && (
+          <button
+            className="border-b-2 border-black font-bold pointer hover:border-b-4"
+            onClick={fetchTemplates}
+          >
+            Retry
+          </button>
+        )}
       </div>
 
       <div className="h-[110px] pointer-events-none" />
