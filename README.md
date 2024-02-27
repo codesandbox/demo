@@ -1,4 +1,4 @@
-# CodeSandbox demo 
+# CodeSandbox Demo 
 
 ## Install dependencies
 
