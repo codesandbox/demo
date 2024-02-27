@@ -50,7 +50,7 @@ function App() {
           className="border-b-2 border-black font-bold pointer hover:border-b-4"
           onClick={fetchTemplates}
         >
-          Fetch templates
+          Retry
         </button>
       </div>
 
